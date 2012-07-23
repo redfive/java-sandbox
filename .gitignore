@@ -3,6 +3,9 @@
 # target directory for builds #
 obj/
 
+# vi temporary files #
+*.swp
+
 # Package Files #
 *.jar
 *.war
