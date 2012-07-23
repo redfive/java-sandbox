@@ -1,5 +1,8 @@
 *.class
 
+# target directory for builds #
+obj/
+
 # Package Files #
 *.jar
 *.war
