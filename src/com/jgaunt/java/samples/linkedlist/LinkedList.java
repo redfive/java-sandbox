@@ -8,7 +8,9 @@ import com.jgaunt.java.samples.linkedlist.LinkedListNode;
   *   data member. 
   */
 public class LinkedList {
-    LinkedListNode head = null;
+
+    /** Needs to be protected to allow subclasses to access this data member */
+    protected LinkedListNode head = null;
 
     public LinkedList () {
     }
