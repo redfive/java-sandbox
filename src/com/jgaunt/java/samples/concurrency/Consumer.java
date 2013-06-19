@@ -11,8 +11,9 @@ public class Consumer extends Thread {
 
     public void run () {
         while (true) {
+            System.out.print("Consuming ");
             int num = buffer.remove();
-            System.out.println("Consumed " + num);
+            System.out.println(" " + num);
         }
     }
 }

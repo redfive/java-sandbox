@@ -16,8 +16,8 @@ public class Producer extends Thread {
 
         while (true) {
             int num = r.nextInt();
+            System.out.println("Producing " + num);
             buffer.add(num);
-            System.out.println("Produced " + num);
         }
     }
 
